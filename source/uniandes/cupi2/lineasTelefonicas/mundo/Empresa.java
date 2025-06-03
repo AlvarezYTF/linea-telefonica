@@ -87,6 +87,7 @@ public class Empresa
 	public int darTotalNumeroLlamadas( )
 	{
         // TODO Parte3 PuntoE: Completar el método según la documentación dada.
+		return linea1.darNumeroLlamadas() + linea2.darNumeroLlamadas() + linea3.darNumeroLlamadas();
 	}
 
 	/**
@@ -96,6 +97,7 @@ public class Empresa
 	public int darTotalMinutos( )
 	{
         // TODO Parte3 PuntoF: Completar el método según la documentación dada.
+		return linea1.darNumeroMinutos() + linea2.darNumeroMinutos() + linea3.darNumeroMinutos();
 	}
 
 	/**
@@ -105,6 +107,7 @@ public class Empresa
 	public double darTotalCostoLlamadas( )
 	{        
         // TODO Parte3 PuntoG: Completar el método según la documentación dada.
+		return linea1.darCostoLlamadas() + linea2.darCostoLlamadas() + linea3.darCostoLlamadas();
 	}
 
 	/**
@@ -114,6 +117,11 @@ public class Empresa
 	public double darCostoPromedioMinuto( )
 	{
         // TODO Parte3 PuntoH: Completar el método según la documentación dada.
+		int totalMinutos = this.darTotalMinutos();
+		if (totalMinutos == 0) {
+			return 0.0;
+		}
+		return this.darTotalCostoLlamadas() / totalMinutos;
 	}
 
 	/**
