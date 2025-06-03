@@ -228,6 +228,8 @@ public class Empresa
     {
         linea1.reiniciar( );
         // TODO Parte3 PuntoB: Completar el método para reiniciar las lineas 2 y 3.
+        linea2.reiniciar();
+        linea3.reiniciar();
     }
 
     //-----------------------------------------------------------------
