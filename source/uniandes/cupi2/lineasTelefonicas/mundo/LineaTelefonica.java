@@ -46,6 +46,9 @@ public class LineaTelefonica
     public LineaTelefonica( )
     {
     	// TODO Parte2 PuntoA: Inicializar el número de llamadas, número de minutos y costo de llamadas en 0.
+    	numeroLlamadas = 0;
+    	numeroMinutos = 0;
+    	costoLlamadas = 0;
     }
 
     /**
