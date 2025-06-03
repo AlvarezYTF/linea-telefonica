@@ -201,7 +201,7 @@ public class InterfazLineasTelefonicas extends JFrame
      */
     private void actualizar( )
     {
-        panelTotales.actualizar( empresa.darTotalCostoLlamadas( ), empresa.darTotalNumeroLlamadas( ), empresa.darTotalMinutos( ), empresa.darCostoPromedioMinuto( ) );
+        // panelTotales.actualizar( empresa.darTotalCostoLlamadas( ), empresa.darTotalNumeroLlamadas( ), empresa.darTotalMinutos( ), empresa.darCostoPromedioMinuto( ) );
         panelLinea1.actualizar( empresa.darLinea1( ).darCostoLlamadas( ), empresa.darLinea1( ).darNumeroLlamadas( ), empresa.darLinea1( ).darNumeroMinutos( ) );
         panelLinea2.actualizar( empresa.darLinea2( ).darCostoLlamadas( ), empresa.darLinea2( ).darNumeroLlamadas( ), empresa.darLinea2( ).darNumeroMinutos( ) );
         panelLinea3.actualizar( empresa.darLinea3( ).darCostoLlamadas( ), empresa.darLinea3( ).darNumeroLlamadas( ), empresa.darLinea3( ).darNumeroMinutos( ) );

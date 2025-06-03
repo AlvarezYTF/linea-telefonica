@@ -46,10 +46,8 @@ public class Empresa
     public Empresa( )
     {
         linea1 = new LineaTelefonica( );
-
-
-        // TODO Parte3 PuntoA: Construir linea2 y linea3.
-
+        linea2 = new LineaTelefonica();
+        linea3 = new LineaTelefonica();   
     }
 
     /**
@@ -59,6 +57,7 @@ public class Empresa
     public LineaTelefonica darLinea1( )
     {
         // TODO Parte3 PuntoB: Completar el método según la documentación dada.
+    	return linea1;
     }
 
     /**
@@ -68,6 +67,7 @@ public class Empresa
     public LineaTelefonica darLinea2( )
     {
         // TODO Parte3 PuntoC: Completar el método según la documentación dada.
+    	return linea2;
     }
 
     /**
@@ -77,6 +77,7 @@ public class Empresa
     public LineaTelefonica darLinea3( )
     {
         // TODO Parte3 PuntoD: Completar el método según la documentación dada.
+    	return linea3;
     }
 
     /**
@@ -133,6 +134,7 @@ public class Empresa
     public void agregarLlamadaLocalLinea2( int pMinutos )
     {
         // TODO Parte3 PuntoI: Completar el método según la documentación dada.
+    	linea2.agregarLlamadaLocal(pMinutos);
     }
 
     /**
@@ -143,6 +145,7 @@ public class Empresa
     public void agregarLlamadaLocalLinea3( int pMinutos )
     {
         // TODO Parte3 PuntoJ: Completar el método según la documentación dada.
+    	linea3.agregarLlamadaLocal(pMinutos);
     }
 
     /**
@@ -163,6 +166,7 @@ public class Empresa
     public void agregarLlamadaLargaDistanciaLinea2( int pMinutos )
     {
         // TODO Parte3 PuntoK: Completar el método según la documentación dada.
+    	linea2.agregarLlamadaLargaDistancia(pMinutos);
     }
 
     /**
@@ -173,6 +177,7 @@ public class Empresa
     public void agregarLlamadaLargaDistanciaLinea3( int pMinutos )
     {
         // TODO Parte3 PuntoL: Completar el método según la documentación dada.
+    	linea3.agregarLlamadaLargaDistancia(pMinutos);
     }
 
     /**
@@ -193,6 +198,7 @@ public class Empresa
     public void agregarLlamadaCelularLinea2( int pMinutos )
     {
         // TODO Parte3 PuntoM: Completar el método según la documentación dada.
+    	linea2.agregarLlamadaCelular(pMinutos);
     }
 
     /**
@@ -203,6 +209,7 @@ public class Empresa
     public void agregarLlamadaCelularLinea3( int pMinutos )
     {
         // TODO Parte3 PuntoN: Completar el método según la documentación dada.
+    	linea3.agregarLlamadaCelular(pMinutos);
     }
 
     /**
