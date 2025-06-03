@@ -116,6 +116,9 @@ public class LineaTelefonica
     public void agregarLlamadaLargaDistancia( int pMinutos )
     {
         // TODO Parte2 PuntoF: Completar el método según la documentación dada.
+    	numeroLlamadas = numeroLlamadas + 1;
+    	numeroMinutos = numeroMinutos + pMinutos;
+    	costoLlamadas = costoLlamadas + (pMinutos * 380);
     }
 
     /**
@@ -126,6 +129,9 @@ public class LineaTelefonica
     public void agregarLlamadaCelular( int pMinutos )
     {
         // TODO Parte2 PuntoG: Completar el método según la documentación dada.
+    	numeroLlamadas = numeroLlamadas + 1;
+    	numeroMinutos = numeroMinutos + pMinutos;
+    	costoLlamadas = costoLlamadas + (pMinutos * 999);
     }
 
 }
