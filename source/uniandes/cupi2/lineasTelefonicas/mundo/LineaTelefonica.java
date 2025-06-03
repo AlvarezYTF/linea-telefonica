@@ -58,6 +58,7 @@ public class LineaTelefonica
     public double darCostoLlamadas( )
     {
         // TODO Parte2 PuntoB: Completar el método según la documentación dada.
+    	return costoLlamadas;
     }
 
     /**
@@ -67,7 +68,9 @@ public class LineaTelefonica
     public int darNumeroLlamadas( )
     {
         // TODO Parte2 PuntoC: Completar el método según la documentación dada.
+    	return numeroLlamadas;
     }
+    
 
     /**
      * Retorna el número de minutos consumidos.
@@ -76,6 +79,7 @@ public class LineaTelefonica
     public int darNumeroMinutos( )
     {
         // TODO Parte2 PuntoD: Completar el método según la documentación dada.
+    	return numeroMinutos;
     }
 
     /**
